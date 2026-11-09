@@ -1,0 +1,49 @@
+name: Weekday sanctions list update
+
+on:
+  schedule:
+    # Weekdays, 14:43 UTC (7:43 a.m. Arizona)
+    - cron: "43 14 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Pull latest sanctions lists
+        id: run
+        run: |
+          python -m sanctions_tracker | tee run.log
+          echo "summary<<EOF" >> "$GITHUB_OUTPUT"
+          cat run.log >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Commit changes
+        env:
+          SUMMARY: ${{ steps.run.outputs.summary }}
+        run: |
+          git add -A data README.md
+          if git diff --cached --quiet; then
+            echo "No list changes today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sanctions list update $(date -u +%Y-%m-%d)" -m "$SUMMARY"
+          git push
