@@ -1,5 +1,5 @@
 source,label,regulator,url,entries,last_checked,last_change,result
-us_ofac,US,OFAC (Treasury) - SDN List,https://sanctionslist.ofac.treas.gov/Home/SdnList,19563,2026-11-09,,ok
-uk_fcdo,UK,FCDO - UK Sanctions List,https://www.gov.uk/government/publications/the-uk-sanctions-list,6420,2026-11-09,,ok
-au_dfat,AU,DFAT - Australian Sanctions Consolidated List,https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list,,2026-11-09,,ReadTimeout
-un_sc,UN,UN Security Council - Consolidated List,https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list,1007,2026-11-09,,ok
+us_ofac,US,OFAC (Treasury) - SDN List,https://sanctionslist.ofac.treas.gov/Home/SdnList,19563,2026-11-10,,ok
+uk_fcdo,UK,FCDO - UK Sanctions List,https://www.gov.uk/government/publications/the-uk-sanctions-list,6420,2026-11-10,,ok
+au_dfat,AU,DFAT - Australian Sanctions Consolidated List,https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list,,2026-11-10,,ReadTimeout
+un_sc,UN,UN Security Council - Consolidated List,https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list,1007,2026-11-10,,ok
