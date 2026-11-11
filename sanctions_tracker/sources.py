@@ -20,6 +20,7 @@ from __future__ import annotations
 import csv
 import io
 import re
+import time
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from urllib.parse import urljoin
@@ -61,9 +62,27 @@ class ParseError(RuntimeError):
 
 # ---------------------------------------------------------------- helpers
 
-def fetch(url: str, binary: bool = False):
-    resp = requests.get(url, headers=HEADERS, timeout=120)
-    resp.raise_for_status()
+# Some government sites (DFAT) stall on requests that don't look like a
+# browser, so those sources send ordinary browser headers.
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+def fetch(url: str, binary: bool = False, browser: bool = False, attempts: int = 3):
+    headers = BROWSER_HEADERS if browser else HEADERS
+    for attempt in range(1, attempts + 1):
+        try:
+            resp = requests.get(url, headers=headers, timeout=(30, 180))
+            resp.raise_for_status()
+            break
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt == attempts:
+                raise
+            time.sleep(10 * attempt)
     if binary:
         return resp.content
     resp.encoding = resp.encoding or "utf-8"
@@ -265,10 +284,10 @@ def parse_au_xlsx(data: bytes) -> list[Entry]:
 
 
 def fetch_au() -> list[Entry]:
-    url = find_link(fetch(AU_PAGE_URL), AU_PAGE_URL, ".xlsx", "consolidated")
+    url = find_link(fetch(AU_PAGE_URL, browser=True), AU_PAGE_URL, ".xlsx", "consolidated")
     if not url:
         raise ParseError("couldn't find the Consolidated List .xlsx link on DFAT's page")
-    return parse_au_xlsx(fetch(url, binary=True))
+    return parse_au_xlsx(fetch(url, binary=True, browser=True))
 
 
 # ---------------------------------------------------------------- UN
