@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19563 | - | 2026-11-10 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6420 | - | 2026-11-10 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | - | - | 2026-11-10 | Needs a look: ReadTimeout |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-10 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19563 | - | 2026-11-11 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6420 | - | 2026-11-11 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | - | - | 2026-11-11 | Needs a look: ReadTimeout |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-11 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
