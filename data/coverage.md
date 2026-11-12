@@ -6,11 +6,11 @@ Generated from the latest snapshots. A listing is counted under every country ti
 
 | Country | US | UK | UN |
 |---|---|---|---|
-| Russia | 5218 | 1313 | 12 |
+| Russia | 5218 | 1319 | 12 |
 | Iran | 1705 | 253 | 32 |
 | China | 1198 | 119 | 7 |
 | Mexico | 1228 | 0 | 0 |
-| UAE | 768 | 203 | 3 |
+| UAE | 768 | 206 | 3 |
 | Ukraine | 241 | 260 | 0 |
 | North Korea | 233 | 119 | 141 |
 | Turkey | 388 | 25 | 1 |
@@ -46,7 +46,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 
 | Program / regime | Listings |
 |---|---|
-| The Russia (Sanctions) (EU Exit) Regulations 2019 | 3537 |
+| The Russia (Sanctions) (EU Exit) Regulations 2019 | 3557 |
 | The Syria (Sanctions) (EU Exit) Regulations 2019 | 352 |
 | Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019 | 333 |
 | The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019 | 303 |
