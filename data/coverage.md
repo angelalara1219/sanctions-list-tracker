@@ -32,12 +32,12 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Program / regime | Listings |
 |---|---|
 | RUSSIA-EO14024 | 6346 |
-| SDGT | 3360 |
+| SDGT | 3363 |
 | IFSR | 1620 |
 | SDNTK | 1363 |
 | NPWMD | 1205 |
 | IRAN-EO13902 | 1100 |
-| ILLICIT-DRUGS-EO14059 | 787 |
+| ILLICIT-DRUGS-EO14059 | 788 |
 | GLOMAG | 739 |
 | IRAN | 679 |
 | UKRAINE-EO13662 | 536 |

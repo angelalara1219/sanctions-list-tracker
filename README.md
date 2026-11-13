@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19563 | - | 2026-11-12 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6440 | 2026-11-12 | 2026-11-12 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | - | - | 2026-11-12 | Needs a look: ReadTimeout |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-12 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19565 | 2026-11-13 | 2026-11-13 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6440 | 2026-11-12 | 2026-11-13 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | - | - | 2026-11-13 | Needs a look: ReadTimeout |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-13 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,6 +26,9 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
+| 2026-11-13 | US | Amended | LOS HUISTAS DRUG TRAFFICKING ORGANIZATION | Entity | SDGT; ILLICIT-DRUGS-EO14059 |
+| 2026-11-13 | US | Added | LOS LORENZANAS | Entity | FTO; SDGT |
+| 2026-11-13 | US | Added | LOS MENDOZA DRUG TRAFFICKING ORGANIZATION | Entity | SDGT; ILLICIT-DRUGS-EO14059 |
 | 2026-11-12 | UK | Amended | Zhi CHEN | Individual | The Global Human Rights Sanctions Regulations 2020 |
 | 2026-11-12 | UK | Added | IMO 9321304 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
 | 2026-11-12 | UK | Added | IMO 9252967 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
@@ -38,9 +41,6 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 | 2026-11-12 | UK | Added | PATERA FZCO | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
 | 2026-11-12 | UK | Added | JOINT-STOCK COMPANY 'SIBERIAN COAL ENERGY COMPANY' | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
 | 2026-11-12 | UK | Added | JOINT STOCK COMPANY UGOLNAYA KOMPANIYA KUZBASSRAZREZUGOL | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | PJSC OIL AND GAS COMPANY SLAVNEFT | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO 9460564 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO 9402328 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)

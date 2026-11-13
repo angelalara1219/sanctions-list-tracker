@@ -1,4 +1,7 @@
 detected_on,source,change,entry_id,name,entry_type,programs,detail
+2026-11-13,us_ofac,Amended,32452,LOS HUISTAS DRUG TRAFFICKING ORGANIZATION,Entity,SDGT; ILLICIT-DRUGS-EO14059,programs: ILLICIT-DRUGS-EO14059 -> SDGT; ILLICIT-DRUGS-EO14059
+2026-11-13,us_ofac,Added,59070,LOS LORENZANAS,Entity,FTO; SDGT,
+2026-11-13,us_ofac,Added,59031,LOS MENDOZA DRUG TRAFFICKING ORGANIZATION,Entity,SDGT; ILLICIT-DRUGS-EO14059,
 2026-11-12,uk_fcdo,Amended,GHR0179,Zhi CHEN,Individual,The Global Human Rights Sanctions Regulations 2020,name: Zhi Chen -> Zhi CHEN
 2026-11-12,uk_fcdo,Added,RUS3811,IMO 9321304,Ship,The Russia (Sanctions) (EU Exit) Regulations 2019,
 2026-11-12,uk_fcdo,Added,RUS3810,IMO 9252967,Ship,The Russia (Sanctions) (EU Exit) Regulations 2019,
