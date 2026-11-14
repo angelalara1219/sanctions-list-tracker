@@ -36,6 +36,12 @@ UK_PAGE_URL = "https://www.gov.uk/government/publications/the-uk-sanctions-list"
 UK_FALLBACK_CSV = "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.csv"
 AU_PAGE_URL = "https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list"
 UN_XML_URL = "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
+# OpenSanctions republishes DFAT's original file unchanged (free for
+# non-commercial use under CC BY-NC 4.0; see README).
+AU_MIRROR_XLSX = "https://data.opensanctions.org/datasets/latest/au_dfat_sanctions/source.xlsx"
+
+# Which route each source used on this run, for the status table.
+ROUTES: dict[str, str] = {}
 
 
 @dataclass
@@ -284,10 +290,21 @@ def parse_au_xlsx(data: bytes) -> list[Entry]:
 
 
 def fetch_au() -> list[Entry]:
-    url = find_link(fetch(AU_PAGE_URL, browser=True), AU_PAGE_URL, ".xlsx", "consolidated")
-    if not url:
-        raise ParseError("couldn't find the Consolidated List .xlsx link on DFAT's page")
-    return parse_au_xlsx(fetch(url, binary=True, browser=True))
+    """Try DFAT first. DFAT's site often blocks cloud servers like GitHub's, so
+    fall back to OpenSanctions' mirror of the same DFAT spreadsheet. The file
+    is identical, so the parser and the DFAT reference numbers don't change."""
+    try:
+        url = find_link(fetch(AU_PAGE_URL, browser=True, attempts=1),
+                        AU_PAGE_URL, ".xlsx", "consolidated")
+        if not url:
+            raise ParseError("couldn't find the Consolidated List .xlsx link on DFAT's page")
+        entries = parse_au_xlsx(fetch(url, binary=True, browser=True, attempts=1))
+        ROUTES["au_dfat"] = "DFAT"
+        return entries
+    except (requests.RequestException, ParseError):
+        entries = parse_au_xlsx(fetch(AU_MIRROR_XLSX, binary=True))
+        ROUTES["au_dfat"] = "mirror"
+        return entries
 
 
 # ---------------------------------------------------------------- UN

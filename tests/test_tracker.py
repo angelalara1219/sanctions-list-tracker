@@ -89,6 +89,32 @@ class TrackerTests(unittest.TestCase):
         amended = [c for c in changes if c.change == "Amended"][0]
         self.assertIn("IRAN -> IRAN; SDGT", amended.detail)
 
+    def test_capitalization_only_changes_are_ignored(self):
+        old = [src.Entry("GHR0179", "Zhi Chen", "Individual", "Global Human Rights")]
+        new = [src.Entry("GHR0179", "Zhi  CHEN", "Individual", "Global Human Rights")]
+        self.assertEqual(t.diff("uk_fcdo", old, new, "2026-11-14"), [])
+
+    def test_au_falls_back_to_mirror_when_dfat_blocks(self):
+        wb = Workbook()
+        for row in au_rows():
+            wb.active.append(row)
+        buf = io.BytesIO()
+        wb.save(buf)
+        xlsx = buf.getvalue()
+
+        def fake_fetch(url, binary=False, browser=False, attempts=3):
+            if "dfat.gov.au" in url:
+                raise src.requests.ReadTimeout("blocked")
+            self.assertEqual(url, src.AU_MIRROR_XLSX)
+            return xlsx
+
+        with mock.patch.object(src, "fetch", fake_fetch):
+            entries = src.fetch_au()
+        self.assertEqual(len(entries), 2)
+        self.assertEqual(src.ROUTES["au_dfat"], "mirror")
+        status = t.Status("au_dfat", "AU", "DFAT", "https://x", "2", "d", "", "ok-mirror")
+        self.assertIn("OpenSanctions mirror", t.status_table([status]))
+
     def test_shrink_guard(self):
         old = [src.Entry(str(i), "x", "Entity", "P") for i in range(10)]
         with self.assertRaises(RuntimeError):

@@ -23,7 +23,7 @@ from dataclasses import asdict, dataclass, fields
 from datetime import date
 from pathlib import Path
 
-from .sources import SOURCES, Entry, Source
+from .sources import ROUTES, SOURCES, Entry, Source
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -105,14 +105,19 @@ def diff(source: str, old: list[Entry], new: list[Entry], today: str) -> list[Ch
     for eid in sorted(before.keys() & after.keys()):
         a, b = before[eid], after[eid]
         notes = []
-        if a.name != b.name:
+        # Ignore capitalization/spacing-only edits (e.g. "Zhi Chen" -> "Zhi CHEN").
+        if not same(a.name, b.name):
             notes.append(f"name: {a.name} -> {b.name}")
-        if a.programs != b.programs:
+        if not same(a.programs, b.programs):
             notes.append(f"programs: {a.programs} -> {b.programs}")
         if notes:
             changes.append(Change(today, source, "Amended", eid, b.name, b.entry_type,
                                   b.programs, "; ".join(notes)))
     return changes
+
+
+def same(a: str, b: str) -> bool:
+    return " ".join(a.split()).casefold() == " ".join(b.split()).casefold()
 
 
 def check_shrink(old: list[Entry], new: list[Entry]) -> None:
@@ -131,7 +136,12 @@ def status_table(statuses: list[Status]) -> str:
     lines = ["| List | Regulator | Entries | Last change | Last checked | Status |",
              "|---|---|---|---|---|---|"]
     for s in statuses:
-        ok = "OK" if s.result == "ok" else f"Needs a look: {s.result}"
+        if s.result == "ok":
+            ok = "OK"
+        elif s.result == "ok-mirror":
+            ok = "OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file)"
+        else:
+            ok = f"Needs a look: {s.result}"
         lines.append(f"| {s.label} | [{s.regulator}]({s.url}) | {s.entries or '-'} | "
                      f"{s.last_change or '-'} | {s.last_checked or '-'} | {ok} |")
     return "\n".join(lines)
@@ -240,7 +250,7 @@ def run_source(src: Source, today: str, prev: Status | None) -> tuple[Status, li
               sorted(new, key=lambda e: (e.entry_id.zfill(12), e.entry_id)), Entry)
     last_change = today if changes else (prev.last_change if prev else "")
     status = Status(src.key, src.label, src.regulator, src.url, str(len(new)), today,
-                    last_change, "ok")
+                    last_change, "ok-mirror" if ROUTES.get(src.key) == "mirror" else "ok")
     return status, changes, new
 
 

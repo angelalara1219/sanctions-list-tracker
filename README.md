@@ -49,7 +49,7 @@ Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentra
 
 - **US (OFAC SDN List):** the list most global companies screen against, whatever country they're in.
 - **UK (FCDO UK Sanctions List):** the single official UK list since the OFSI Consolidated List closed on 28 January 2026.
-- **Australia (DFAT Consolidated List):** covers Australia's autonomous sanctions plus the UN listings it implements.
+- **Australia (DFAT Consolidated List):** covers Australia's autonomous sanctions plus the UN listings it implements. DFAT's website often blocks cloud servers like GitHub's, so when it does, the tracker downloads the same DFAT spreadsheet from [OpenSanctions](https://www.opensanctions.org/datasets/au_dfat_sanctions/), which republishes the original file unchanged. The status table shows which route each run used.
 - **UN Security Council Consolidated List:** most countries without their own autonomous regime, including much of Latin America, implement UN sanctions. Tracking the UN list is the most accurate way to cover them. There's no single "LATAM sanctions list."
 
 ## What's in the data
@@ -102,6 +102,8 @@ You can also kick off a run from the **Actions** tab with **Run workflow**.
 ## Notes
 
 - Public government data only. Nothing here comes from any employer or non-public source.
+- The Australian fallback file comes from [OpenSanctions](https://www.opensanctions.org/), used under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for this non-commercial project. Any business use of OpenSanctions data needs their commercial license.
+- Name changes that are only capitalization or spacing (for example "Zhi Chen" to "Zhi CHEN") are not logged as amendments.
 - This is a monitoring convenience, not a screening tool and not legal advice. Screening decisions should always be made against the official list and with the full identifying details.
 - The country view in `coverage.md` shows where listings are concentrated (by nationality, citizenship or address). It is not a list of embargoed countries.
 - Possible next additions: the EU Financial Sanctions File and OFAC's non-SDN Consolidated List.
