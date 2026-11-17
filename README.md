@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19565 | 2026-11-13 | 2026-11-16 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6440 | 2026-11-12 | 2026-11-16 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4014 | - | 2026-11-16 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-16 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19565 | 2026-11-13 | 2026-11-17 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6449 | 2026-11-17 | 2026-11-17 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-17 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-17 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,21 +26,21 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
-| 2026-11-13 | US | Amended | LOS HUISTAS DRUG TRAFFICKING ORGANIZATION | Entity | SDGT; ILLICIT-DRUGS-EO14059 |
-| 2026-11-13 | US | Added | LOS LORENZANAS | Entity | FTO; SDGT |
-| 2026-11-13 | US | Added | LOS MENDOZA DRUG TRAFFICKING ORGANIZATION | Entity | SDGT; ILLICIT-DRUGS-EO14059 |
-| 2026-11-12 | UK | Amended | Zhi CHEN | Individual | The Global Human Rights Sanctions Regulations 2020 |
-| 2026-11-12 | UK | Added | IMO 9321304 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO 9252967 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | LLC Vostok Oil | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO9958327 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO9958298 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO9915105 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | IMO9630028 | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | NOVUS ENERGY DMCC | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | PATERA FZCO | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | JOINT-STOCK COMPANY 'SIBERIAN COAL ENERGY COMPANY' | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-12 | UK | Added | JOINT STOCK COMPANY UGOLNAYA KOMPANIYA KUZBASSRAZREZUGOL | Entity | The Russia (Sanctions) (EU Exit) Regulations 2019 |
+| 2026-11-17 | UK | Added | TZAV 9 | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | HAREY ZAHAV MANAGEMENT LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | LEV HAHAR YAZAMUT LIMITED | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | S.A.G. (VELVEL) BUILDING & DEVELOPMENT LTD. | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | Z.F. BUILDING COMPANY LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | HEMDAT SHOMRON LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | AMI GVIRTZMAN ARCHITECTS 2021 LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | ARIEL RESIDENTIAL JUDEA AND SAMARIA LIMITED | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | UK | Added | HAR HEVRON DEVELOPMENT COMPANY LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-17 | AU | Added | Itamar Yehuda Levi | Individual | Autonomous (Thematic - Human Rights) |
+| 2026-11-17 | AU | Added | Eyal Hari Yehuda Company Ltd | Entity | Autonomous (Thematic - Human Rights) |
+| 2026-11-17 | AU | Added | Hashomer Yosh | Entity | Autonomous (Thematic - Human Rights) |
+| 2026-11-17 | AU | Added | The Nachala Movement | Entity | Autonomous (Thematic - Human Rights) |
+| 2026-11-17 | AU | Added | Amana the Settlement Movement of Gush Emunim Central Cooperative Association Ltd | Entity | Autonomous (Thematic - Human Rights) |
+| 2026-11-17 | AU | Added | Eliav Libi | Individual | Autonomous (Thematic - Human Rights) |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)

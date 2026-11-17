@@ -1,5 +1,5 @@
 entry_id,name,entry_type,programs,countries
-AFG0001,HAJI KHAIRULLAH HAJI SATTAR MONEY EXCHANGE,Entity,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Iran; Afghanistan; United Arab Emirates
+AFG0001,HAJI KHAIRULLAH HAJI SATTAR MONEY EXCHANGE,Entity,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Afghanistan; Iran; United Arab Emirates
 AFG0002,ROSHAN MONEY EXCHANGE,Entity,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Pakistan; Afghanistan
 AFG0003,HAQQANI NETWORK (HQN),Entity,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,
 AFG0004,RAHAT LTD.,Entity,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Pakistan; Afghanistan; Iran
@@ -140,7 +140,7 @@ AFG0138,Rahmatullah SHAH NAWAZ,Individual,The Afghanistan (Sanctions) (EU Exit) 
 AFG0139,ABDUL BASIR NOORZAI,Individual,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Pakistan
 AFG0140,TOREK AGHA,Individual,The Afghanistan (Sanctions) (EU Exit) Regulations 2020,Pakistan
 AQD0001,ABD AL-RAHMAN BIN UMAYR AL-NU'AYMI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Qatar
-AQD0002,ABDALLAH AZZAM BRIGADES (AAB),Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Lebanon; Syria
+AQD0002,ABDALLAH AZZAM BRIGADES (AAB),Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Lebanon
 AQD0003,ABU SAYYAF GROUP,Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Philippines
 AQD0004,AFGHAN SUPPORT COMMITTEE (ASC),Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan
 AQD0005,AL FURQAN,Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Bosnia and Herzegovina
@@ -221,7 +221,7 @@ AQD0084,WAFA HUMANITARIAN ORGANIZATION,Entity,Isil (Da'esh) and Al-Qaeda (United
 AQD0085,ABD AL-RAHMAN KHALAF UBAYD JUDAY' AL-'ANIZI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria
 AQD0086,'ABD AL-RAHMAN MUHAMMAD MUSTAFA AL-QADULI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0089,ABD AL-BASET AZZOUZ,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Libya
-AQD0090,ABD ALLAH MOHAMED RAGAB ABDEL RAHMAN,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Pakistan; Afghanistan
+AQD0090,ABD ALLAH MOHAMED RAGAB ABDEL RAHMAN,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan; Pakistan
 AQD0091,ABD AL-LATIF BIN ABDALLAH SALIH MUHAMMAD AL-KAWARI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Qatar
 AQD0093,ABD AL-RAHMAN OULD MUHAMMAD AL-HUSAYN OULD MUHAMMAD SALIM,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Mauritania
 AQD0094,ABD EL KADER MAHMOUD MOHAMED EL SAYED,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
@@ -233,7 +233,7 @@ AQD0099,ABDELMALEK DROUKDEL,Individual,Isil (Da'esh) and Al-Qaeda (United Nation
 AQD0100,ABDELRAHMAN MOUHAMAD ZAFIR AL DABIDI AL JAHANI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0101,ABDERRAHMANE OULD EL AMAR,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Mali
 AQD0102,ABDUL HAKIM MURAD,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
-AQD0103,ABDUL HAQ,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Pakistan; Afghanistan
+AQD0103,ABDUL HAQ,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan; Pakistan
 AQD0104,ABDUL MANAN AGHA,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0105,ABDUL MOHSEN ABDALLAH IBRAHIM AL CHAREKH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0106,ABDUL RAHIM BA'AYSIR,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Indonesia
@@ -256,7 +256,7 @@ AQD0123,AHMED ABDULLAH SALEH AL-KHAZMARI AL-ZAHRANI,Individual,Isil (Da'esh) and
 AQD0124,AHMED DEGHDEGH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Algeria
 AQD0125,AHMED KHALFAN GHAILANI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,United States
 AQD0126,AIMAN MUHAMMED RABI AL-ZAWAHIRI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
-AQD0127,AKHMED RAJAPOVICH CHATAEV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Iraq
+AQD0127,AKHMED RAJAPOVICH CHATAEV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Syria
 AQD0128,AKRAM TURKI HISHAN AL-MAZIDIH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Syria
 AQD0129,AL-AZHAR BEN KHALIFA BEN AHMED ROUINE,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Tunisia
 AQD0130,ALEXANDA AMON KOTEY,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,United States
@@ -297,11 +297,11 @@ AQD0169,FARED SAAL,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctio
 AQD0170,FARHAD KANABI AHMAD,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq
 AQD0171,FAYCAL BOUGHANEMI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Italy
 AQD0172,FAYSAL AHMAD BIN ALI AL-ZAHRANI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria
-AQD0173,FAZAL RAHIM,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan; Pakistan
+AQD0173,FAZAL RAHIM,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Pakistan; Afghanistan
 AQD0174,FAZEEL-A-TUL SHAYKH ABU MOHAMMED AMEEN AL-PESHAWARI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Pakistan
 AQD0175,Feliciano Semborio DELOS REYES JR.,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Philippines
 AQD0177,GHALIB ABDULLAH AL-ZAIDI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
-AQD0178,GHAZY FEZZA HISHAN AL-MAZIDIH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Syria
+AQD0178,GHAZY FEZZA HISHAN AL-MAZIDIH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Iraq
 AQD0179,GULMUROD KHALIMOV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0180,GUN GUN RUSMAN GUNAWAN,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0181,HABIB BEN AHMED AL-LOUBIRI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan; Tunisia
@@ -324,7 +324,7 @@ AQD0200,IBRAHIM 'ISA HAJJI MUHAMMAD AL-BAKR,Individual,Isil (Da'esh) and Al-Qaed
 AQD0202,IBRAHIM SULEIMAN HAMAD AL-HABLAIN,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0204,IMED BEN MEKKI ZARKAOUI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,France
 AQD0205,ISAM ALI MOHAMED ALOUCHE,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
-AQD0206,ISLAM SEIT-UMAROVICH ATABIEV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Russia; Syria
+AQD0206,ISLAM SEIT-UMAROVICH ATABIEV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Syria; Russia
 AQD0207,ISNILON TOTONI HAPILON,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Philippines
 AQD0208,Iyad AG GHALI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Mali
 AQD0210,Jaber Abdallah Jaber AHMAD AL-JALAHMAH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Kuwait
@@ -415,9 +415,9 @@ AQD0309,SALIM Y SALAMUDDIN JULKIPLI,Individual,Isil (Da'esh) and Al-Qaeda (Unite
 AQD0310,SALLY-ANNE FRANCES JONES,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; United Kingdom
 AQD0311,SAMI BEN KHAMIS BEN SALEH ELSSEID,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Tunisia
 AQD0312,MOHAMMED SALAHALDIN ABD EL HALIM ZIDANE,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
-AQD0313,Seifallah Ben Omar Ben Mohamed BEN HASSINE,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Tunisia; Libya
-AQD0315,SHAMIL MAGOMEDOVICH ISMAILOV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Iraq; Syria
-AQD0316,SHANE DOMINIC CRAWFORD,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Turkey; Trinidad and Tobago; Syria
+AQD0313,Seifallah Ben Omar Ben Mohamed BEN HASSINE,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Libya; Tunisia
+AQD0315,SHAMIL MAGOMEDOVICH ISMAILOV,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Iraq
+AQD0316,SHANE DOMINIC CRAWFORD,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Trinidad and Tobago; Turkey; Syria
 AQD0317,Sofiane BEN GOUMO,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Libya
 AQD0318,Sulaiman Jassem Sulaiman ALI ABO GHAITH,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0319,TARAD MOHAMMAD ALNORI ALFARES ALJARBA,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
@@ -450,7 +450,7 @@ AQD0358,MOHAMMED MASOOD AZHAR ALVI,Individual,Isil (Da'esh) and Al-Qaeda (United
 AQD0359,Ali Maychou,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Mali
 AQD0361,Bah AG MOUSSA,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0362,Noor Wali Mehsud,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan
-AQD0363,Jamal Hussein Hassan Zeiniye,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Lebanon; Syria
+AQD0363,Jamal Hussein Hassan Zeiniye,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Lebanon
 AQD0364,Amadou Koufa,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Mali
 AQD0365,ISLAMIC STATE WEST AFRICA PROVINCE (ISWAP),Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0366,ISLAMIC STATE IN THE GREATER SAHARA (ISGS),Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
@@ -459,7 +459,7 @@ AQD0368,ISLAMIC STATE IN IRAQ AND THE LEVANT - LIBYA,Entity,Isil (Da'esh) and Al
 AQD0369,ISLAMIC STATE IN IRAQ AND THE LEVANT - YEMEN,Entity,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
 AQD0370,Amir Muhammad Sa'id Abdal-Rahman al-Salbi,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Iraq
 AQD0371,MEHREZ BEN MAHMOUD BEN SASSI AL-AMDOUNI,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Italy
-AQD0372,Mohammad Ali Al Habbo,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Turkey; Syria
+AQD0372,Mohammad Ali Al Habbo,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Syria; Turkey
 AQD0373,Emraan Ali,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,United States; Trinidad and Tobago
 AQD0374,Sanaullah Ghafari,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,Afghanistan
 AQD0375,Ashraf al-Qizani,Individual,Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019,
@@ -1483,6 +1483,15 @@ GHR0199,Meir Mordechai ETTINGER,Individual,The Global Human Rights Sanctions Reg
 GHR0200,Eliav LIBI,Individual,The Global Human Rights Sanctions Regulations 2020,Occupied Palestinian Territories
 GHR0201,Baruch MARZEL,Individual,The Global Human Rights Sanctions Regulations 2020,
 GHR0202,Avichai SUISSA,Individual,The Global Human Rights Sanctions Regulations 2020,Occupied Palestinian Territories
+GHR0203,HAR HEVRON DEVELOPMENT COMPANY LTD,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0204,ARIEL RESIDENTIAL JUDEA AND SAMARIA LIMITED,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Israel
+GHR0205,AMI GVIRTZMAN ARCHITECTS 2021 LTD,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0206,HEMDAT SHOMRON LTD,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0207,Z.F. BUILDING COMPANY LTD,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Israel
+GHR0208,S.A.G. (VELVEL) BUILDING & DEVELOPMENT LTD.,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0210,LEV HAHAR YAZAMUT LIMITED,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0212,HAREY ZAHAV MANAGEMENT LTD,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,Occupied Palestinian Territories
+GHR0213,TZAV 9,Entity,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,
 GIM0001,Goran Assad JALAL,Individual,The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025,
 GIM0002,Skaljari Gang,Entity,The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025,
 GIM0003,Kavac Gang,Entity,The Global Irregular Migration and Trafficking in Persons Sanctions Regulations 2025,
@@ -1632,7 +1641,7 @@ INU0072,Iran Centrifuge Technology Company,Entity,The Iran (Sanctions) (Nuclear)
 INU0073,Iran Communications Industries (ICI),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran
 INU0074,Iran Composites Institute (ICI),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran
 INU0075,Iran Electronics Industries,Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran
-INU0076,Iran Marine Industrial Company (SADRA),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran; Venezuela
+INU0076,Iran Marine Industrial Company (SADRA),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Venezuela; Iran
 INU0077,Iran Puya,Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,
 INU0079,Iranian Aviation Industries Organization (IAIO),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran
 INU0080,Islamic Revolutionary Guard Corps (IRGC),Entity,The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019,Iran
@@ -3834,7 +3843,7 @@ RUS1538,Vladislav Garievich KUZNETSOV,Individual,The Russia (Sanctions) (EU Exit
 RUS1539,Konstantin Anatolyevich CHUYCHENKO,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,
 RUS1540,Oleg Mikhailovich SVIRIDENKO,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,
 RUS1541,Sanjar Zunnurovich ISMAILOV,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,
-RUS1542,Sarvar ISMAILOV,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,United Kingdom; United Arab Emirates
+RUS1542,Sarvar ISMAILOV,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,United Arab Emirates; United Kingdom
 RUS1543,Graham William PHILLIPS,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,
 RUS1544,Simon AL WAKIL,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,
 RUS1545,Nabeul AL-ABDULLAH,Individual,The Russia (Sanctions) (EU Exit) Regulations 2019,

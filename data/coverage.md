@@ -69,8 +69,8 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | 1718 (DPRK) | 214 |
 | Autonomous (Syria) | 143 |
 | 1988 (Taliban) | 141 |
+| Autonomous (Thematic - Human Rights) | 124 |
 | 1737 (Iran) | 121 |
-| Autonomous (Thematic - Human Rights) | 117 |
 
 ## UN: largest programs / regimes
 
