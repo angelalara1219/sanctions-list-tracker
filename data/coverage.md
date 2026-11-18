@@ -14,9 +14,9 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Ukraine | 241 | 260 | 117 | 0 |
 | Syria | 300 | 99 | 107 | 8 |
 | North Korea | 233 | 119 | 0 | 141 |
-| Turkey | 388 | 25 | 2 | 1 |
+| Turkey | 389 | 25 | 2 | 1 |
 | Afghanistan | 80 | 57 | 137 | 140 |
-| Lebanon | 361 | 16 | 6 | 1 |
+| Lebanon | 366 | 16 | 6 | 1 |
 | Iraq | 173 | 35 | 81 | 87 |
 | Belarus | 257 | 69 | 11 | 0 |
 | Colombia | 293 | 1 | 3 | 3 |
@@ -32,7 +32,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Program / regime | Listings |
 |---|---|
 | RUSSIA-EO14024 | 6346 |
-| SDGT | 3363 |
+| SDGT | 3369 |
 | IFSR | 1620 |
 | SDNTK | 1363 |
 | NPWMD | 1205 |
