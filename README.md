@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19571 | 2026-11-18 | 2026-11-18 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6449 | 2026-11-17 | 2026-11-18 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-18 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-18 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19595 | 2026-11-19 | 2026-11-19 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6449 | 2026-11-17 | 2026-11-19 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-19 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-19 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,21 +26,21 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
-| 2026-11-18 | US | Added | CHOUMAN, Afif Abdel Rida | Individual | SDGT |
-| 2026-11-18 | US | Added | WA TA'AWANU ASSOCIATION | Entity | SDGT |
-| 2026-11-18 | US | Added | SANKARI GOLD KUYUMCULUK TICARET LIMITED SIRKETI | Entity | SDGT |
-| 2026-11-18 | US | Added | GOLD GLOBAL COMPANY | Entity | SDGT |
-| 2026-11-18 | US | Added | KHECHEN, Ibrahim | Individual | SDGT |
-| 2026-11-18 | US | Added | KHECHEN, Hassan | Individual | SDGT |
-| 2026-11-17 | UK | Added | TZAV 9 | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | HAREY ZAHAV MANAGEMENT LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | LEV HAHAR YAZAMUT LIMITED | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | S.A.G. (VELVEL) BUILDING & DEVELOPMENT LTD. | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | Z.F. BUILDING COMPANY LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | HEMDAT SHOMRON LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | AMI GVIRTZMAN ARCHITECTS 2021 LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | ARIEL RESIDENTIAL JUDEA AND SAMARIA LIMITED | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
-| 2026-11-17 | UK | Added | HAR HEVRON DEVELOPMENT COMPANY LTD | Entity | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-19 | US | Amended | 'NDRANGHETA | Entity | SDNTK; ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | ZHZ INVESTMENT CONSULTING CO., LTD. | Entity | CYBER4 |
+| 2026-11-19 | US | Added | BEI FANG BO LIN CONSTRUCTION DECORATION CO., LTD. | Entity | CYBER4 |
+| 2026-11-19 | US | Added | ZHAO, Hui | Individual | CYBER4 |
+| 2026-11-19 | US | Added | ONE, Saw A | Individual | CYBER4 |
+| 2026-11-19 | US | Added | WAH, Saw Shwe | Individual | CYBER4 |
+| 2026-11-19 | US | Added | NAUFAHU, Vetekina | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | NAUFAHU, Pasilika | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | MEEHAN, Allan John Norman | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | VARELA VILLAR, Alexandre | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | COFFEN, Marco Francis | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | COMANCHERO OUTLAW MOTORCYCLE GANG | Entity | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | PHANTOM LIMOUSINE SERVICES INC. | Entity | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | VESCIO, Laura | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-19 | US | Added | VESCIO JR., Luigi | Individual | ILLICIT-DRUGS-EO14059 |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)

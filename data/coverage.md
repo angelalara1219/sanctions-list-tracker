@@ -10,7 +10,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Iran | 1705 | 253 | 159 | 32 |
 | China | 1198 | 119 | 2 | 7 |
 | Mexico | 1228 | 0 | 0 | 0 |
-| UAE | 768 | 206 | 0 | 3 |
+| UAE | 769 | 206 | 0 | 3 |
 | Ukraine | 241 | 260 | 117 | 0 |
 | Syria | 300 | 99 | 107 | 8 |
 | North Korea | 233 | 119 | 0 | 141 |
@@ -21,10 +21,10 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Belarus | 257 | 69 | 11 | 0 |
 | Colombia | 293 | 1 | 3 | 3 |
 | Venezuela | 254 | 32 | 0 | 0 |
-| Myanmar | 187 | 64 | 21 | 0 |
+| Myanmar | 189 | 64 | 21 | 0 |
 | United Kingdom | 186 | 47 | 10 | 12 |
 | Pakistan | 171 | 41 | 15 | 23 |
-| Cambodia | 181 | 16 | 0 | 0 |
+| Cambodia | 183 | 16 | 0 | 0 |
 | India | 175 | 12 | 1 | 1 |
 
 ## US: largest programs / regimes
@@ -37,7 +37,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | SDNTK | 1363 |
 | NPWMD | 1205 |
 | IRAN-EO13902 | 1100 |
-| ILLICIT-DRUGS-EO14059 | 788 |
+| ILLICIT-DRUGS-EO14059 | 808 |
 | GLOMAG | 739 |
 | IRAN | 679 |
 | UKRAINE-EO13662 | 536 |
