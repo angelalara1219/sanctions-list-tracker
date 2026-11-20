@@ -7,7 +7,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Country | US | UK | AU | UN |
 |---|---|---|---|---|
 | Russia | 5218 | 1319 | 1082 | 12 |
-| Iran | 1705 | 253 | 159 | 32 |
+| Iran | 1709 | 253 | 159 | 32 |
 | China | 1198 | 119 | 2 | 7 |
 | Mexico | 1228 | 0 | 0 | 0 |
 | UAE | 769 | 206 | 0 | 3 |
@@ -32,11 +32,11 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Program / regime | Listings |
 |---|---|
 | RUSSIA-EO14024 | 6346 |
-| SDGT | 3369 |
-| IFSR | 1620 |
+| SDGT | 3371 |
+| IFSR | 1622 |
 | SDNTK | 1363 |
 | NPWMD | 1205 |
-| IRAN-EO13902 | 1100 |
+| IRAN-EO13902 | 1102 |
 | ILLICIT-DRUGS-EO14059 | 808 |
 | GLOMAG | 739 |
 | IRAN | 679 |
@@ -46,7 +46,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 
 | Program / regime | Listings |
 |---|---|
-| The Russia (Sanctions) (EU Exit) Regulations 2019 | 3557 |
+| The Russia (Sanctions) (EU Exit) Regulations 2019 | 3556 |
 | The Syria (Sanctions) (EU Exit) Regulations 2019 | 352 |
 | Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019 | 333 |
 | The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019 | 303 |

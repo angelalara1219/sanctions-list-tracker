@@ -1,4 +1,9 @@
 detected_on,source,change,entry_id,name,entry_type,programs,detail
+2026-11-20,us_ofac,Added,59253,"SERVATI, Mohammadhossein",Individual,SDGT; IFSR,
+2026-11-20,us_ofac,Added,59252,"TAJ, Majid",Individual,IRAN-EO13902,
+2026-11-20,us_ofac,Added,59251,"BAVAND, Mohammad Javad",Individual,IRAN-EO13902,
+2026-11-20,us_ofac,Added,59250,"ARABNEJAD, Mojtaba",Individual,SDGT; IFSR,
+2026-11-20,uk_fcdo,Removed,RUS3470,LNG SOARS,Ship,The Russia (Sanctions) (EU Exit) Regulations 2019,
 2026-11-19,us_ofac,Amended,10902,'NDRANGHETA,Entity,SDNTK; ILLICIT-DRUGS-EO14059,name: 'NDRANGHETA ORGANIZATION -> 'NDRANGHETA; programs: SDNTK -> SDNTK; ILLICIT-DRUGS-EO14059
 2026-11-19,us_ofac,Added,58872,"ZHZ INVESTMENT CONSULTING CO., LTD.",Entity,CYBER4,
 2026-11-19,us_ofac,Added,58871,"BEI FANG BO LIN CONSTRUCTION DECORATION CO., LTD.",Entity,CYBER4,

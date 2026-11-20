@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19595 | 2026-11-19 | 2026-11-19 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6449 | 2026-11-17 | 2026-11-19 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-19 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-19 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19599 | 2026-11-20 | 2026-11-20 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6448 | 2026-11-20 | 2026-11-20 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-20 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-20 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,6 +26,11 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
+| 2026-11-20 | US | Added | SERVATI, Mohammadhossein | Individual | SDGT; IFSR |
+| 2026-11-20 | US | Added | TAJ, Majid | Individual | IRAN-EO13902 |
+| 2026-11-20 | US | Added | BAVAND, Mohammad Javad | Individual | IRAN-EO13902 |
+| 2026-11-20 | US | Added | ARABNEJAD, Mojtaba | Individual | SDGT; IFSR |
+| 2026-11-20 | UK | Removed | LNG SOARS | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
 | 2026-11-19 | US | Amended | 'NDRANGHETA | Entity | SDNTK; ILLICIT-DRUGS-EO14059 |
 | 2026-11-19 | US | Added | ZHZ INVESTMENT CONSULTING CO., LTD. | Entity | CYBER4 |
 | 2026-11-19 | US | Added | BEI FANG BO LIN CONSTRUCTION DECORATION CO., LTD. | Entity | CYBER4 |
@@ -36,11 +41,6 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 | 2026-11-19 | US | Added | NAUFAHU, Pasilika | Individual | ILLICIT-DRUGS-EO14059 |
 | 2026-11-19 | US | Added | MEEHAN, Allan John Norman | Individual | ILLICIT-DRUGS-EO14059 |
 | 2026-11-19 | US | Added | VARELA VILLAR, Alexandre | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | COFFEN, Marco Francis | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | COMANCHERO OUTLAW MOTORCYCLE GANG | Entity | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | PHANTOM LIMOUSINE SERVICES INC. | Entity | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | VESCIO, Laura | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | VESCIO JR., Luigi | Individual | ILLICIT-DRUGS-EO14059 |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)
