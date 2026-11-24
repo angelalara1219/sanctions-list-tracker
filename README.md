@@ -16,7 +16,7 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
 | US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19629 | 2026-11-24 | 2026-11-24 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6453 | 2026-11-24 | 2026-11-24 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6457 | 2026-11-24 | 2026-11-24 | OK |
 | AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-24 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
 | UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-24 | OK |
 <!-- STATUS:END -->
