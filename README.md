@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19599 | 2026-11-20 | 2026-11-20 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6448 | 2026-11-20 | 2026-11-20 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-20 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-20 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19629 | 2026-11-24 | 2026-11-24 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6453 | 2026-11-24 | 2026-11-24 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-24 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1007 | - | 2026-11-24 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,21 +26,21 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
-| 2026-11-20 | US | Added | SERVATI, Mohammadhossein | Individual | SDGT; IFSR |
-| 2026-11-20 | US | Added | TAJ, Majid | Individual | IRAN-EO13902 |
-| 2026-11-20 | US | Added | BAVAND, Mohammad Javad | Individual | IRAN-EO13902 |
-| 2026-11-20 | US | Added | ARABNEJAD, Mojtaba | Individual | SDGT; IFSR |
-| 2026-11-20 | UK | Removed | LNG SOARS | Ship | The Russia (Sanctions) (EU Exit) Regulations 2019 |
-| 2026-11-19 | US | Amended | 'NDRANGHETA | Entity | SDNTK; ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | ZHZ INVESTMENT CONSULTING CO., LTD. | Entity | CYBER4 |
-| 2026-11-19 | US | Added | BEI FANG BO LIN CONSTRUCTION DECORATION CO., LTD. | Entity | CYBER4 |
-| 2026-11-19 | US | Added | ZHAO, Hui | Individual | CYBER4 |
-| 2026-11-19 | US | Added | ONE, Saw A | Individual | CYBER4 |
-| 2026-11-19 | US | Added | WAH, Saw Shwe | Individual | CYBER4 |
-| 2026-11-19 | US | Added | NAUFAHU, Vetekina | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | NAUFAHU, Pasilika | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | MEEHAN, Allan John Norman | Individual | ILLICIT-DRUGS-EO14059 |
-| 2026-11-19 | US | Added | VARELA VILLAR, Alexandre | Individual | ILLICIT-DRUGS-EO14059 |
+| 2026-11-24 | US | Added | ABBASI, Mohammad Hossein | Individual | IRAN-EO13902 |
+| 2026-11-24 | US | Added | FAZLJU, Parviz | Individual | IRAN-EO13902 |
+| 2026-11-24 | US | Added | AKHLAGHI, Mahmoud | Individual | IRAN-EO13902 |
+| 2026-11-24 | US | Added | MELLAT EXCHANGE COMPANY | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | IRAN CENTER FOR EXCHANGE OF CURRENCY AND GOLD | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | ROBUST TRADING LLC | Entity | IRAN-EO13871 |
+| 2026-11-24 | US | Added | INTEGRAL PETRO ENERGY TRADING LLC | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | BERKELEY TRADING LLC | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | ALAM AL SAHRA BUILDING MATERIALS TRADING CO. L.L.C | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | NORDIC INTERNATIONAL TRADING LLC | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | ROYAH ALTAHABIA TRADING L.L.C | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | KHORE AL HILAL GOODS WHOLESALERS TRADING LLC | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | GRANDEZ TRADING LIMITED | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | BOGAZICI GUMRUKLEME ITHALAT IHRACAT TURIZM PETROL URUNLERI SANAYI VE TICARET LIMITED SIRKETI | Entity | IRAN-EO13902 |
+| 2026-11-24 | US | Added | FASHKI, Farzad | Individual | IRAN-EO13902 |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)

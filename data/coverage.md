@@ -7,21 +7,21 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Country | US | UK | AU | UN |
 |---|---|---|---|---|
 | Russia | 5218 | 1319 | 1082 | 12 |
-| Iran | 1709 | 253 | 159 | 32 |
-| China | 1198 | 119 | 2 | 7 |
+| Iran | 1721 | 253 | 159 | 32 |
+| China | 1199 | 119 | 2 | 7 |
 | Mexico | 1228 | 0 | 0 | 0 |
-| UAE | 769 | 206 | 0 | 3 |
+| UAE | 785 | 206 | 0 | 3 |
 | Ukraine | 241 | 260 | 117 | 0 |
 | Syria | 300 | 99 | 107 | 8 |
 | North Korea | 233 | 119 | 0 | 141 |
-| Turkey | 389 | 25 | 2 | 1 |
+| Turkey | 390 | 25 | 2 | 1 |
 | Afghanistan | 80 | 57 | 137 | 140 |
 | Lebanon | 366 | 16 | 6 | 1 |
 | Iraq | 173 | 35 | 81 | 87 |
 | Belarus | 257 | 69 | 11 | 0 |
 | Colombia | 293 | 1 | 3 | 3 |
 | Venezuela | 254 | 32 | 0 | 0 |
-| Myanmar | 189 | 64 | 21 | 0 |
+| Myanmar | 189 | 67 | 21 | 0 |
 | United Kingdom | 186 | 47 | 10 | 12 |
 | Pakistan | 171 | 41 | 15 | 23 |
 | Cambodia | 183 | 16 | 0 | 0 |
@@ -32,11 +32,11 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Program / regime | Listings |
 |---|---|
 | RUSSIA-EO14024 | 6346 |
-| SDGT | 3371 |
-| IFSR | 1622 |
+| SDGT | 3372 |
+| IFSR | 1623 |
 | SDNTK | 1363 |
 | NPWMD | 1205 |
-| IRAN-EO13902 | 1102 |
+| IRAN-EO13902 | 1130 |
 | ILLICIT-DRUGS-EO14059 | 808 |
 | GLOMAG | 739 |
 | IRAN | 679 |
