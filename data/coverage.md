@@ -82,7 +82,7 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Iran | 121 |
 | Iraq | 74 |
 | DRC | 61 |
-| Libya | 31 |
+| Libya | 32 |
 | Somalia | 24 |
 | CAR | 15 |
 | Sudan | 13 |
