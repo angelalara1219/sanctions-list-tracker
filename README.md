@@ -15,10 +15,10 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- STATUS:START -->
 | List | Regulator | Entries | Last change | Last checked | Status |
 |---|---|---|---|---|---|
-| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19629 | 2026-11-24 | 2026-11-25 | OK |
-| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6457 | 2026-11-24 | 2026-11-25 | OK |
-| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4021 | 2026-11-17 | 2026-11-25 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
-| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1008 | 2026-11-25 | 2026-11-25 | OK |
+| US | [OFAC (Treasury) - SDN List](https://sanctionslist.ofac.treas.gov/Home/SdnList) | 19629 | 2026-11-24 | 2026-11-26 | OK |
+| UK | [FCDO - UK Sanctions List](https://www.gov.uk/government/publications/the-uk-sanctions-list) | 6458 | 2026-11-26 | 2026-11-26 | OK |
+| AU | [DFAT - Australian Sanctions Consolidated List](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list) | 4022 | 2026-11-26 | 2026-11-26 | OK (via [OpenSanctions mirror](https://www.opensanctions.org/datasets/au_dfat_sanctions/) of DFAT's file) |
+| UN | [UN Security Council - Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list) | 1008 | 2026-11-25 | 2026-11-26 | OK |
 <!-- STATUS:END -->
 
 ## Latest changes
@@ -26,6 +26,9 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 <!-- LATEST:START -->
 | Detected | List | Change | Name | Type | Program |
 |---|---|---|---|---|---|
+| 2026-11-26 | UK | Amended | Sarim Al-Din MUFADDAL | Individual | The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 |
+| 2026-11-26 | UK | Added | IMO 8027705 | Ship | The Libya (Sanctions) (EU Exit) Regulations 2020 |
+| 2026-11-26 | AU | Added | Aegean | Vessel | 1970 (Libya) |
 | 2026-11-25 | UN | Added | Aegean | Entity | Libya |
 | 2026-11-24 | US | Added | ABBASI, Mohammad Hossein | Individual | IRAN-EO13902 |
 | 2026-11-24 | US | Added | FAZLJU, Parviz | Individual | IRAN-EO13902 |
@@ -38,9 +41,6 @@ So I automated it. Every weekday, a GitHub Action downloads each list, compares 
 | 2026-11-24 | US | Added | ALAM AL SAHRA BUILDING MATERIALS TRADING CO. L.L.C | Entity | IRAN-EO13902 |
 | 2026-11-24 | US | Added | NORDIC INTERNATIONAL TRADING LLC | Entity | IRAN-EO13902 |
 | 2026-11-24 | US | Added | ROYAH ALTAHABIA TRADING L.L.C | Entity | IRAN-EO13902 |
-| 2026-11-24 | US | Added | KHORE AL HILAL GOODS WHOLESALERS TRADING LLC | Entity | IRAN-EO13902 |
-| 2026-11-24 | US | Added | GRANDEZ TRADING LIMITED | Entity | IRAN-EO13902 |
-| 2026-11-24 | US | Added | BOGAZICI GUMRUKLEME ITHALAT IHRACAT TURIZM PETROL URUNLERI SANAYI VE TICARET LIMITED SIRKETI | Entity | IRAN-EO13902 |
 <!-- LATEST:END -->
 
 Full log: [`data/changes.csv`](data/changes.csv) · Where listings are concentrated, by country and program: [`data/coverage.md`](data/coverage.md)

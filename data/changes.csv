@@ -1,4 +1,7 @@
 detected_on,source,change,entry_id,name,entry_type,programs,detail
+2026-11-26,uk_fcdo,Amended,GHR0214,Sarim Al-Din MUFADDAL,Individual,The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026,name: Sarim Al Din Mufadal -> Sarim Al-Din MUFADDAL
+2026-11-26,uk_fcdo,Added,LIB0080,IMO 8027705,Ship,The Libya (Sanctions) (EU Exit) Regulations 2020,
+2026-11-26,au_dfat,Added,9012,Aegean,Vessel,1970 (Libya),
 2026-11-25,un_sc,Added,LYe.007,Aegean,Entity,Libya,
 2026-11-24,us_ofac,Added,59233,"ABBASI, Mohammad Hossein",Individual,IRAN-EO13902,
 2026-11-24,us_ofac,Added,59232,"FAZLJU, Parviz",Individual,IRAN-EO13902,
