@@ -15,9 +15,9 @@ Generated from the latest snapshots. A listing is counted under every country ti
 | Syria | 300 | 99 | 107 | 8 |
 | North Korea | 233 | 119 | 0 | 141 |
 | Turkey | 390 | 25 | 2 | 1 |
-| Afghanistan | 80 | 57 | 137 | 140 |
+| Afghanistan | 80 | 57 | 138 | 140 |
 | Lebanon | 366 | 16 | 6 | 1 |
-| Iraq | 173 | 35 | 81 | 87 |
+| Iraq | 173 | 35 | 82 | 87 |
 | Belarus | 257 | 69 | 11 | 0 |
 | Colombia | 293 | 1 | 3 | 3 |
 | Venezuela | 254 | 32 | 0 | 0 |
